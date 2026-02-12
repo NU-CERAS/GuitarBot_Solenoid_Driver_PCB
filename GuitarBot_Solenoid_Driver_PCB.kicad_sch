@@ -2615,7 +2615,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:NMOS"
+		(symbol "NMOS_1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2625,8 +2625,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+			(property "Reference" "Q8"
+				(at -5.08 -5.842 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2635,7 +2635,7 @@
 				)
 			)
 			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
+				(at -5.08 -3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2643,7 +2643,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 				(at 5.08 2.54 0)
 				(effects
 					(font
@@ -2706,7 +2706,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NMOS_0_1"
+			(symbol "NMOS_1_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -2873,7 +2873,7 @@
 					)
 				)
 			)
-			(symbol "NMOS_1_1"
+			(symbol "NMOS_1_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2884,7 +2884,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2902,7 +2902,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3404,6 +3404,24 @@
 		(uuid "1328ca24-20ee-4088-9270-ef5c3b1505b2")
 	)
 	(junction
+		(at 187.96 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "178d18eb-f2ae-4a64-a42a-f28bf8d6d0eb")
+	)
+	(junction
+		(at 200.66 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bc760eb-bde8-4c57-b5b5-7cb79a31af4e")
+	)
+	(junction
+		(at 151.13 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c336eed-f0b0-4061-8ed4-9d25a1246fb9")
+	)
+	(junction
 		(at 246.38 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3464,10 +3482,16 @@
 		(uuid "2d32d5e8-238b-439c-a8ba-e755cd9a215f")
 	)
 	(junction
-		(at 151.13 157.48)
+		(at 175.26 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "389bbf9e-5c75-43a2-8185-b3b4b0615a01")
+		(uuid "2e52e9a4-fb81-407e-9faa-5180a4aace07")
+	)
+	(junction
+		(at 162.56 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "301f716e-3066-4cdf-a664-cdb53d7cd09c")
 	)
 	(junction
 		(at 246.38 120.65)
@@ -3480,12 +3504,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b533a00-07c3-4573-89b7-16b74677d689")
-	)
-	(junction
-		(at 212.09 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3be8d34e-8ade-4756-971b-2420b0e008f5")
 	)
 	(junction
 		(at 266.7 118.11)
@@ -3512,10 +3530,10 @@
 		(uuid "4fd8f0fd-d330-4ada-8e07-d76e930a5297")
 	)
 	(junction
-		(at 200.66 50.8)
+		(at 187.96 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "57575a34-2979-4c63-822a-0c7a767e972c")
+		(uuid "54e52dd8-eaab-46f3-a8c5-0d6bb1d9f7ff")
 	)
 	(junction
 		(at 246.38 85.09)
@@ -3524,10 +3542,22 @@
 		(uuid "599ba214-0d05-4314-84c9-3cedb230a517")
 	)
 	(junction
+		(at 200.66 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e8e7235-0ade-4374-b735-e94069c4141d")
+	)
+	(junction
 		(at 276.86 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ec02238-4fda-4650-9454-c927ec8e349d")
+	)
+	(junction
+		(at 175.26 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6000e54b-d103-475f-b3b0-f75e738dc503")
 	)
 	(junction
 		(at 246.38 97.79)
@@ -3536,34 +3566,22 @@
 		(uuid "600db6ab-538a-46d6-ac85-5d0b77af9bfe")
 	)
 	(junction
-		(at 212.09 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "629bd58c-1f93-4588-b535-26524de154d7")
-	)
-	(junction
-		(at 175.26 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "655b13b8-cc89-4fe9-b8e0-0d1643e2dd5d")
-	)
-	(junction
 		(at 266.7 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6706a0d8-3afe-4b59-9896-e1b1472ccea5")
 	)
 	(junction
-		(at 187.96 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67a9d37a-8a18-4a91-9162-74831cc2e101")
-	)
-	(junction
 		(at 266.7 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6cdb2cfa-eea3-4ee4-beca-967083180362")
+	)
+	(junction
+		(at 151.13 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6eb84be5-11dd-4317-90f4-a7ff10b87a25")
 	)
 	(junction
 		(at 76.2 133.35)
@@ -3578,12 +3596,6 @@
 		(uuid "75eb5f9c-6115-4266-9259-e64d21c11bea")
 	)
 	(junction
-		(at 200.66 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "785ab210-07c4-494a-96ab-105b5c5cbdfb")
-	)
-	(junction
 		(at 276.86 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3596,22 +3608,10 @@
 		(uuid "83229e3a-51c5-4c8a-b062-8b0b36569b03")
 	)
 	(junction
-		(at 162.56 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "845eac0b-3d31-44ba-a308-054a3cb8ea3a")
-	)
-	(junction
 		(at 266.7 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85be7651-bbf3-48c0-9ffb-be0c59e023e0")
-	)
-	(junction
-		(at 187.96 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86fcd24f-fa34-4513-86ae-bcaa0683cba2")
 	)
 	(junction
 		(at 246.38 107.95)
@@ -3644,16 +3644,16 @@
 		(uuid "93460603-7649-4515-bfa4-d1a4d9704604")
 	)
 	(junction
-		(at 151.13 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94d9fd84-c753-4ba1-9439-e2433ce423df")
-	)
-	(junction
 		(at 71.12 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98c7ae02-3267-49ce-9976-7a14a2a75f55")
+	)
+	(junction
+		(at 162.56 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9936cebf-2c36-435d-bb5b-e7bf9763e608")
 	)
 	(junction
 		(at 266.7 115.57)
@@ -3686,12 +3686,6 @@
 		(uuid "a567f407-8aac-4f55-b266-a47efd7851da")
 	)
 	(junction
-		(at 175.26 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6f2616c-a4f9-4ade-832c-5573b999dca0")
-	)
-	(junction
 		(at 246.38 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3707,7 +3701,7 @@
 		(at 224.79 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bc38aa64-1aaf-46bb-ae8e-04727de4c628")
+		(uuid "be78c9c7-1a42-4874-bc91-140795401903")
 	)
 	(junction
 		(at 138.43 50.8)
@@ -3716,10 +3710,10 @@
 		(uuid "c2159c80-5f81-4cf9-95ed-1db33d6cca2e")
 	)
 	(junction
-		(at 162.56 50.8)
+		(at 212.09 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cdfab4c4-e4c0-4e1e-a1d7-1d06331d5bcc")
+		(uuid "d06d8dae-aacd-4376-bdd3-b5deca47e554")
 	)
 	(junction
 		(at 266.7 95.25)
@@ -3780,6 +3774,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3feaffc-3f14-44a3-9034-524b4459c31c")
+	)
+	(junction
+		(at 212.09 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7b00a71-246e-41c9-a785-9453d1d1e0e5")
 	)
 	(junction
 		(at 266.7 87.63)
@@ -3945,6 +3945,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 157.48) (xy 224.79 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14ec006d-8c55-4087-add7-43cb6b24ba7d")
+	)
+	(wire
+		(pts
 			(xy 55.88 133.35) (xy 76.2 133.35)
 		)
 		(stroke
@@ -4015,26 +4025,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 157.48) (xy 151.13 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cbf0a7e-ccbe-414d-8522-e143b461917b")
-	)
-	(wire
-		(pts
-			(xy 162.56 50.8) (xy 151.13 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d526e18-70c3-4fda-a87f-dd47cf4e2796")
-	)
-	(wire
-		(pts
 			(xy 200.66 60.96) (xy 200.66 90.17)
 		)
 		(stroke
@@ -4085,7 +4075,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 157.48) (xy 200.66 157.48)
+			(xy 162.56 157.48) (xy 175.26 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4185,7 +4175,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 157.48) (xy 212.09 157.48)
+			(xy 175.26 157.48) (xy 187.96 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4235,16 +4225,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 157.48) (xy 162.56 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "376765ef-55b4-41d3-9bf6-b7bf55e0cf5a")
-	)
-	(wire
-		(pts
 			(xy 43.18 133.35) (xy 48.26 133.35)
 		)
 		(stroke
@@ -4275,13 +4255,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 50.8) (xy 162.56 50.8)
+			(xy 200.66 157.48) (xy 212.09 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "39e54d7c-d195-47ed-a92a-8fdb7fbeb903")
+		(uuid "39e4c628-6c49-412e-aff0-6216325965c2")
 	)
 	(wire
 		(pts
@@ -4625,23 +4605,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 50.8) (xy 175.26 50.8)
+			(xy 151.13 50.8) (xy 162.56 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "738004cc-d203-4723-b9df-526d3ced3466")
-	)
-	(wire
-		(pts
-			(xy 200.66 50.8) (xy 187.96 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "738b11bd-f4c6-4a5d-aaee-6f311a4d9008")
 	)
 	(wire
 		(pts
@@ -4695,7 +4665,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 157.48) (xy 175.26 157.48)
+			(xy 138.43 157.48) (xy 151.13 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4755,6 +4725,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 50.8) (xy 187.96 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "851e2679-b9a1-4756-aa13-c7c9c0ac4529")
+	)
+	(wire
+		(pts
 			(xy 43.18 130.81) (xy 43.18 128.27)
 		)
 		(stroke
@@ -4795,7 +4775,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 50.8) (xy 212.09 50.8)
+			(xy 187.96 50.8) (xy 200.66 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4872,16 +4852,6 @@
 			(type default)
 		)
 		(uuid "9d2cf069-a74d-486f-bcaa-2859412fedaf")
-	)
-	(wire
-		(pts
-			(xy 224.79 157.48) (xy 237.49 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d8d43be-2a2b-4a8e-bd71-71517ebfc8c9")
 	)
 	(wire
 		(pts
@@ -5025,7 +4995,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 50.8) (xy 138.43 50.8)
+			(xy 138.43 50.8) (xy 151.13 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5095,7 +5065,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 157.48) (xy 187.96 157.48)
+			(xy 151.13 157.48) (xy 162.56 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5115,7 +5085,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 157.48) (xy 224.79 157.48)
+			(xy 187.96 157.48) (xy 200.66 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5125,13 +5095,13 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 50.8) (xy 200.66 50.8)
+			(xy 224.79 157.48) (xy 237.49 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd41c16b-3de9-459f-a2d4-2051ed256a07")
+		(uuid "cd8d7c1b-0ea0-4a87-a80f-12962bcd26af")
 	)
 	(wire
 		(pts
@@ -5155,6 +5125,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 50.8) (xy 212.09 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf59d279-429d-4a00-922e-d17015b78852")
+	)
+	(wire
+		(pts
 			(xy 276.86 120.65) (xy 276.86 123.19)
 		)
 		(stroke
@@ -5172,6 +5152,16 @@
 			(type default)
 		)
 		(uuid "d72b0e1e-80bf-4e08-9e70-6b83010d9ad2")
+	)
+	(wire
+		(pts
+			(xy 162.56 50.8) (xy 175.26 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db1864fd-5f0b-4c21-aaa5-8f09b434c4a6")
 	)
 	(wire
 		(pts
@@ -5312,6 +5302,16 @@
 			(type default)
 		)
 		(uuid "ebf3a0de-4cc7-44db-be95-a077171c38b4")
+	)
+	(wire
+		(pts
+			(xy 212.09 50.8) (xy 224.79 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eedb3307-9959-4020-89f4-da457c8046bc")
 	)
 	(wire
 		(pts
@@ -5814,105 +5814,6 @@
 		(uuid "fd4103fa-71a5-4db2-aa82-d5277df214f3")
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 203.2 55.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "06fc9e2a-885d-479e-923e-bf690ee76a7d")
-		(property "Reference" "Q3"
-			(at 208.28 50.038 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 208.28 52.578 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 198.12 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 203.2 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 203.2 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 203.2 38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 203.2 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 203.2 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "15d10cfc-2246-45bf-8cee-e0776eb1a9a2")
-		)
-		(pin "1"
-			(uuid "bf7c06c4-bef0-4354-b575-90481a66b9ac")
-		)
-		(pin "3"
-			(uuid "811dee3b-9fbe-430e-bfe6-17b1ec4f653d")
-		)
-		(instances
-			(project "GuitarBot_Solenoid_Driver_PCB"
-				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 262.89 107.95 0)
 		(mirror y)
@@ -5976,6 +5877,106 @@
 			(project "GuitarBot_Solenoid_Driver_PCB"
 				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "NMOS_1")
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 135.89 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a789b53-9fcc-43e9-b2b0-151d6ce8a043")
+		(property "Reference" "Q9"
+			(at 130.81 158.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 130.81 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 140.97 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 135.89 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 135.89 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 135.89 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 135.89 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 135.89 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a917b742-963b-473e-8975-7f0b372b7c0c")
+		)
+		(pin "1"
+			(uuid "93523c7a-0b7c-4c7b-bb87-0ca3a209bae9")
+		)
+		(pin "3"
+			(uuid "56642694-f1f7-4ad2-980a-7a32d895a75b")
+		)
+		(instances
+			(project "GuitarBot_Solenoid_Driver_PCB"
+				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -6110,6 +6111,206 @@
 			(project "GuitarBot_Solenoid_Driver_PCB"
 				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "NMOS_1")
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 153.67 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0eb964f9-d689-4f59-bb47-ef0c6fd5fb78")
+		(property "Reference" "Q7"
+			(at 158.75 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 158.75 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 148.59 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 153.67 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 153.67 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 153.67 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 153.67 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 153.67 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd2f0176-229f-40d1-837f-72e146e59ba4")
+		)
+		(pin "1"
+			(uuid "49810b14-017d-4ce7-87b7-ba3ef6fa4f14")
+		)
+		(pin "3"
+			(uuid "b4764cd2-1475-4ccc-8e6e-1272d6c266df")
+		)
+		(instances
+			(project "GuitarBot_Solenoid_Driver_PCB"
+				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "NMOS_1")
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 160.02 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10caface-f22c-4635-8350-0dcfba71b214")
+		(property "Reference" "Q11"
+			(at 154.94 158.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 154.94 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 165.1 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 160.02 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 160.02 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 160.02 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 160.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 160.02 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1c5a6f50-06f9-4815-a666-f76054ead67c")
+		)
+		(pin "1"
+			(uuid "8305e52b-18df-45e8-a6d4-f0aac791cffd")
+		)
+		(pin "3"
+			(uuid "36d8bab6-3b00-4d62-ae39-ebbda354046b")
+		)
+		(instances
+			(project "GuitarBot_Solenoid_Driver_PCB"
+				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -6463,105 +6664,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 135.89 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "28506852-a4ee-48d6-ba12-27f1a9a6a37e")
-		(property "Reference" "Q9"
-			(at 130.81 158.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 130.81 155.702 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 140.97 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 135.89 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 135.89 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 135.89 169.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 135.89 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 135.89 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c2096df5-8d2b-4545-865d-c630570e3ca7")
-		)
-		(pin "1"
-			(uuid "7f5c5a68-0c39-4f49-ad4b-81b9c10f0f0a")
-		)
-		(pin "3"
-			(uuid "355fab86-cfc9-4b97-86b0-e7bca826db4d")
-		)
-		(instances
-			(project "GuitarBot_Solenoid_Driver_PCB"
-				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
-					(reference "Q9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 64.77 71.12 0)
 		(unit 1)
@@ -6828,6 +6930,106 @@
 		)
 	)
 	(symbol
+		(lib_name "NMOS_1")
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 227.33 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "372e0dcd-2e80-4e84-9203-e207e1c42335")
+		(property "Reference" "Q1"
+			(at 232.41 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 232.41 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 222.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 227.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 227.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 227.33 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 227.33 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 227.33 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "245f3369-d93c-4b93-a026-ae846b3864a8")
+		)
+		(pin "1"
+			(uuid "df141ec3-d303-4ccd-860b-26d8a0699c4a")
+		)
+		(pin "3"
+			(uuid "53a68509-7f9c-490f-b7d2-a55810b1c835")
+		)
+		(instances
+			(project "GuitarBot_Solenoid_Driver_PCB"
+				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 262.89 110.49 0)
 		(mirror y)
@@ -6966,105 +7168,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 160.02 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4289df76-155a-42bb-956f-2758377e96fd")
-		(property "Reference" "Q11"
-			(at 154.94 158.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 154.94 155.702 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 165.1 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 160.02 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 160.02 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 160.02 169.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 160.02 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 160.02 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bbb14754-92ae-4550-8ec8-7509ec840be7")
-		)
-		(pin "1"
-			(uuid "d31f1082-5c5c-47fc-a083-a6271064fd92")
-		)
-		(pin "3"
-			(uuid "ef6626b0-43f8-4f7f-ae86-9f02e6c725c5")
-		)
-		(instances
-			(project "GuitarBot_Solenoid_Driver_PCB"
-				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
-					(reference "Q11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 262.89 85.09 0)
 		(mirror y)
@@ -7134,16 +7237,17 @@
 		)
 	)
 	(symbol
+		(lib_name "NMOS_1")
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 153.67 55.88 180)
+		(at 214.63 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "472c89a4-c96e-40b7-b807-db32ce8348f4")
-		(property "Reference" "Q7"
-			(at 158.75 50.038 0)
+		(uuid "4f488271-bca5-4a0c-b842-d1e7f887e537")
+		(property "Reference" "Q2"
+			(at 219.71 50.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7152,7 +7256,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 158.75 52.578 0)
+			(at 219.71 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7161,7 +7265,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 148.59 58.42 0)
+			(at 209.55 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7170,7 +7274,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 153.67 43.18 0)
+			(at 214.63 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7179,7 +7283,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 153.67 55.88 0)
+			(at 214.63 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7188,7 +7292,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 153.67 38.735 0)
+			(at 214.63 38.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7197,7 +7301,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 153.67 36.83 0)
+			(at 214.63 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7206,7 +7310,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 153.67 40.64 0)
+			(at 214.63 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7215,18 +7319,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "b3566ad3-06f5-4b21-9f38-f54db0765851")
+			(uuid "02714183-f090-45fe-a4a7-f9c6fa3d7c10")
 		)
 		(pin "1"
-			(uuid "4974fdea-e8ef-4bdc-a04f-58f3e14d7d7b")
+			(uuid "2d02ae85-31a9-4acf-b1ce-30d1ab473a63")
 		)
 		(pin "3"
-			(uuid "6d43644a-92aa-4ac1-9e3e-7bf8f154c4b2")
+			(uuid "d57b120e-9d3e-4c8b-bc8b-a045fbd6bf11")
 		)
 		(instances
 			(project "GuitarBot_Solenoid_Driver_PCB"
 				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
-					(reference "Q7")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -7435,6 +7539,306 @@
 		)
 	)
 	(symbol
+		(lib_name "NMOS_1")
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 185.42 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d9dea35-90e0-4a51-959f-feefd37be0b5")
+		(property "Reference" "Q13"
+			(at 180.34 158.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 180.34 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 190.5 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 185.42 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 185.42 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 185.42 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 185.42 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 185.42 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d4a30410-c45d-4f0f-a647-35beb0342617")
+		)
+		(pin "1"
+			(uuid "fc5f99dc-b067-4bad-884f-90c7d856d0fa")
+		)
+		(pin "3"
+			(uuid "e5e7740c-8586-41ba-9ad2-5641c89408b6")
+		)
+		(instances
+			(project "GuitarBot_Solenoid_Driver_PCB"
+				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
+					(reference "Q13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "NMOS_1")
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 203.2 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63ef35db-99cd-45c1-95c4-d476be921c07")
+		(property "Reference" "Q3"
+			(at 208.28 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 208.28 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 198.12 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 203.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 203.2 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 203.2 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 203.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 203.2 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "031d9455-f1d8-4602-b732-a505d30194c3")
+		)
+		(pin "1"
+			(uuid "81f1a5a3-4953-42d3-8566-210190c7a170")
+		)
+		(pin "3"
+			(uuid "c2ebf2e1-7274-4bfc-9533-88b5ea5e8e61")
+		)
+		(instances
+			(project "GuitarBot_Solenoid_Driver_PCB"
+				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "NMOS_1")
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 165.1 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68de58b0-f8db-45d9-90c0-38c68121bc4f")
+		(property "Reference" "Q6"
+			(at 170.18 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 170.18 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 160.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 165.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 165.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 165.1 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 165.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 165.1 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3d859233-8454-4954-9997-1dff5ef72cb4")
+		)
+		(pin "1"
+			(uuid "6954bb95-b2bd-4b3c-b554-93b286667d89")
+		)
+		(pin "3"
+			(uuid "8de6c97b-664f-426e-bd45-5685f690783b")
+		)
+		(instances
+			(project "GuitarBot_Solenoid_Driver_PCB"
+				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x16")
 		(at 271.78 102.87 0)
 		(mirror y)
@@ -7547,6 +7951,106 @@
 		)
 	)
 	(symbol
+		(lib_name "NMOS_1")
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 190.5 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7347de58-1c25-48d5-b308-04c08dd14bbd")
+		(property "Reference" "Q4"
+			(at 195.58 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 195.58 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 185.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 190.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 190.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 190.5 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 190.5 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 190.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ad7fa24-3e84-4740-bb76-30e380d76665")
+		)
+		(pin "1"
+			(uuid "f4c7a97e-fdba-42b4-ba11-839bd83a1400")
+		)
+		(pin "3"
+			(uuid "b908c5c8-0b93-4c52-ae48-9fdeaffd380c")
+		)
+		(instances
+			(project "GuitarBot_Solenoid_Driver_PCB"
+				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 62.23 105.41 0)
 		(unit 1)
@@ -7611,204 +8115,6 @@
 			(project ""
 				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 165.1 55.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7944efee-d85e-4ac1-8c81-73e0723135ba")
-		(property "Reference" "Q6"
-			(at 170.18 50.038 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 170.18 52.578 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 160.02 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 165.1 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 165.1 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 165.1 38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 165.1 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 165.1 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8cc6dbd5-4d1f-4d80-8c03-0be75b232544")
-		)
-		(pin "1"
-			(uuid "0bbabcf3-acc6-4351-b075-e4c9dbdb2656")
-		)
-		(pin "3"
-			(uuid "6c73a756-4c8e-4a28-bc97-59e8c8e0fb1f")
-		)
-		(instances
-			(project "GuitarBot_Solenoid_Driver_PCB"
-				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 185.42 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "82e5b09f-dbc3-4dd0-b8fb-2d2567c9a558")
-		(property "Reference" "Q13"
-			(at 180.34 158.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 180.34 155.702 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 190.5 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 185.42 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 185.42 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 185.42 169.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 185.42 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 185.42 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ef8fbbc6-b397-468e-a803-ec8b5ab26b8a")
-		)
-		(pin "1"
-			(uuid "fae39547-718f-441f-813d-5b4476a7f231")
-		)
-		(pin "3"
-			(uuid "4a12a470-c2b3-43e8-a144-ab9833574e3f")
-		)
-		(instances
-			(project "GuitarBot_Solenoid_Driver_PCB"
-				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
-					(reference "Q13")
 					(unit 1)
 				)
 			)
@@ -7946,105 +8252,6 @@
 			(project "Guitar Robot PCB"
 				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 209.55 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8d2b00af-1ea2-445f-a4ee-52ee2505372f")
-		(property "Reference" "Q15"
-			(at 204.47 158.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 204.47 155.702 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 214.63 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 209.55 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 209.55 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 209.55 169.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 209.55 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 209.55 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ee8a07b7-f8d5-4fed-bfd8-fd68cf8b18a1")
-		)
-		(pin "1"
-			(uuid "b4b78d39-2e55-402e-9c88-31fdd9a42389")
-		)
-		(pin "3"
-			(uuid "f84cf421-424a-47e3-8804-a62f29f656a1")
-		)
-		(instances
-			(project "GuitarBot_Solenoid_Driver_PCB"
-				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
-					(reference "Q15")
 					(unit 1)
 				)
 			)
@@ -8190,204 +8397,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 148.59 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9c2170df-6204-47d5-946a-7271ce3384bf")
-		(property "Reference" "Q10"
-			(at 143.51 158.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 143.51 155.702 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 153.67 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 148.59 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 148.59 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 148.59 169.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 148.59 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 148.59 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cfaa8b62-61f5-40da-aa07-79e406223ab5")
-		)
-		(pin "1"
-			(uuid "3ba788fd-6d60-404c-863e-403acd9574d4")
-		)
-		(pin "3"
-			(uuid "7eb85f15-7620-4e9f-8051-a07f19376fe2")
-		)
-		(instances
-			(project "GuitarBot_Solenoid_Driver_PCB"
-				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
-					(reference "Q10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 172.72 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9d09a344-7092-4bc4-b7ee-b3b65ef11e68")
-		(property "Reference" "Q12"
-			(at 167.64 158.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 167.64 155.702 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 177.8 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 172.72 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 172.72 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 172.72 169.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 172.72 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 172.72 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bd17f7a1-d366-484f-b806-720762fb4cb1")
-		)
-		(pin "1"
-			(uuid "01535a26-bc88-45ca-9d0f-f8ac5b40d007")
-		)
-		(pin "3"
-			(uuid "76973873-b76c-44b1-8d9e-54959b5f794b")
-		)
-		(instances
-			(project "GuitarBot_Solenoid_Driver_PCB"
-				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
-					(reference "Q12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 262.89 118.11 0)
 		(mirror y)
@@ -8451,6 +8460,106 @@
 			(project "GuitarBot_Solenoid_Driver_PCB"
 				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
 					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "NMOS_1")
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 222.25 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a254d303-1192-4949-a420-08fc76a40dcf")
+		(property "Reference" "Q16"
+			(at 217.17 158.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 217.17 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 227.33 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 222.25 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 222.25 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 222.25 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 222.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 222.25 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "510c95b5-a019-42f1-b4d5-ac1bc6dbfe39")
+		)
+		(pin "1"
+			(uuid "66efec45-a1a5-4e99-a4f5-dcfaceafbafe")
+		)
+		(pin "3"
+			(uuid "2a0fc81d-cd59-4f63-9068-97dcad7b178e")
+		)
+		(instances
+			(project "GuitarBot_Solenoid_Driver_PCB"
+				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
+					(reference "Q16")
 					(unit 1)
 				)
 			)
@@ -8588,105 +8697,6 @@
 			(project "GuitarBot_Solenoid_Driver_PCB"
 				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
 					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 198.12 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a3286409-860f-4de0-84b1-46009070edea")
-		(property "Reference" "Q14"
-			(at 193.04 158.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 193.04 155.702 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 203.2 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 198.12 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 198.12 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 198.12 169.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 198.12 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 198.12 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "63293e57-f7f0-4196-861e-74b6f6292512")
-		)
-		(pin "1"
-			(uuid "6efbf818-2467-482c-a0b2-2aa7b04d8da2")
-		)
-		(pin "3"
-			(uuid "f9987410-5ebc-4e25-8af3-146e5b705fbd")
-		)
-		(instances
-			(project "GuitarBot_Solenoid_Driver_PCB"
-				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
-					(reference "Q14")
 					(unit 1)
 				)
 			)
@@ -9001,6 +9011,106 @@
 			(project ""
 				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "NMOS_1")
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 209.55 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b461c59d-b7fa-445e-8bc1-9877697470b7")
+		(property "Reference" "Q15"
+			(at 204.47 158.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 204.47 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 214.63 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 209.55 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 209.55 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 209.55 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 209.55 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 209.55 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "31034ccf-2977-4eeb-a5b1-91f9f0c7259f")
+		)
+		(pin "1"
+			(uuid "48201dc0-2012-4dc9-9f77-99f3c9e39853")
+		)
+		(pin "3"
+			(uuid "5d360bf0-655d-4cf6-afbd-3ee503eb4e21")
+		)
+		(instances
+			(project "GuitarBot_Solenoid_Driver_PCB"
+				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
+					(reference "Q15")
 					(unit 1)
 				)
 			)
@@ -9364,6 +9474,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 262.89 120.65 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d12bac6f-2b84-4f14-8577-d4b010ba4b85")
+		(property "Reference" "D15"
+			(at 259.588 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 263.2075 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P12.70mm_Horizontal"
+			(at 262.89 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 262.89 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13984de6-1b85-4cf6-87a9-ee422d9ccb91")
+		)
+		(pin "2"
+			(uuid "bbe3577c-3e9d-4b23-956f-58f146dd4ca3")
+		)
+		(instances
+			(project "GuitarBot_Solenoid_Driver_PCB"
+				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "NMOS_1")
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 177.8 55.88 180)
 		(unit 1)
@@ -9371,7 +9551,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c2f24a3b-526e-4648-a709-a3c76353f0f5")
+		(uuid "d2c4562a-627f-4469-bad9-6ed844be046d")
 		(property "Reference" "Q5"
 			(at 182.88 50.038 0)
 			(effects
@@ -9445,87 +9625,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "c338d86b-e548-458b-a5b0-1fd1759305ce")
+			(uuid "a47d6ece-eb45-4736-b49e-758eed9db853")
 		)
 		(pin "1"
-			(uuid "8ba51ff6-378e-4135-b0ac-893f2f25268c")
+			(uuid "eff1c3f8-8f80-4280-a1c8-e0ee40a3b24a")
 		)
 		(pin "3"
-			(uuid "0b0987e4-2f5d-4947-a28a-22c8b294b6fd")
+			(uuid "a2cfac04-e41d-4f4b-b5f0-06597906a982")
 		)
 		(instances
 			(project "GuitarBot_Solenoid_Driver_PCB"
 				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
 					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 262.89 120.65 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d12bac6f-2b84-4f14-8577-d4b010ba4b85")
-		(property "Reference" "D15"
-			(at 259.588 119.888 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 263.2075 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P12.70mm_Horizontal"
-			(at 262.89 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 262.89 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 262.89 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13984de6-1b85-4cf6-87a9-ee422d9ccb91")
-		)
-		(pin "2"
-			(uuid "bbe3577c-3e9d-4b23-956f-58f146dd4ca3")
-		)
-		(instances
-			(project "GuitarBot_Solenoid_Driver_PCB"
-				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
-					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -9667,16 +9778,17 @@
 		)
 	)
 	(symbol
+		(lib_name "NMOS_1")
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 222.25 152.4 0)
+		(at 172.72 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dee69252-ce5f-4860-b095-318c7d9abfaf")
-		(property "Reference" "Q16"
-			(at 217.17 158.242 0)
+		(uuid "dbc87693-27ac-4374-8167-01a4f398f370")
+		(property "Reference" "Q12"
+			(at 167.64 158.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9685,7 +9797,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 217.17 155.702 0)
+			(at 167.64 155.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9694,7 +9806,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 227.33 149.86 0)
+			(at 177.8 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9703,7 +9815,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 222.25 165.1 0)
+			(at 172.72 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9712,7 +9824,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 222.25 152.4 0)
+			(at 172.72 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9721,7 +9833,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 222.25 169.545 0)
+			(at 172.72 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9730,7 +9842,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 222.25 171.45 0)
+			(at 172.72 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9739,7 +9851,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 222.25 167.64 0)
+			(at 172.72 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9748,18 +9860,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "fab2b8a4-c5be-4096-bd53-551367190e3f")
+			(uuid "6f13e26c-eb18-4c63-8707-1cf4b063d988")
 		)
 		(pin "1"
-			(uuid "deb52bf2-37b1-4add-95a3-5bab91f8de73")
+			(uuid "70e2479f-bf7a-4e04-b1ae-1dd35fe81035")
 		)
 		(pin "3"
-			(uuid "b9e02a73-6dec-469a-8dfe-1eff1f6026c1")
+			(uuid "a2e00b7d-7d5c-4ac7-be50-71cdeab332b2")
 		)
 		(instances
 			(project "GuitarBot_Solenoid_Driver_PCB"
 				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
-					(reference "Q16")
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -9903,16 +10015,17 @@
 		)
 	)
 	(symbol
+		(lib_name "NMOS_1")
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 214.63 55.88 180)
+		(at 198.12 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e1bc873e-558d-4eac-bc0d-060f6dcfe4cf")
-		(property "Reference" "Q2"
-			(at 219.71 50.038 0)
+		(uuid "e540a0d7-7177-4a45-8da6-ad0c333ebea2")
+		(property "Reference" "Q14"
+			(at 193.04 158.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9921,7 +10034,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 219.71 52.578 0)
+			(at 193.04 155.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9930,7 +10043,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 209.55 58.42 0)
+			(at 203.2 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9939,7 +10052,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 214.63 43.18 0)
+			(at 198.12 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9948,7 +10061,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 214.63 55.88 0)
+			(at 198.12 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9957,7 +10070,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 214.63 38.735 0)
+			(at 198.12 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9966,7 +10079,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 214.63 36.83 0)
+			(at 198.12 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9975,7 +10088,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 214.63 40.64 0)
+			(at 198.12 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9984,18 +10097,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "589a1ca5-646a-4f86-a6f1-4ad9ac0dbf38")
+			(uuid "81398e5f-5537-4582-93fb-65032a3a7338")
 		)
 		(pin "1"
-			(uuid "ba646070-7f8a-4cfb-8388-b855b257155f")
+			(uuid "0e32c657-0a98-44ee-ac25-ece2e3f29d46")
 		)
 		(pin "3"
-			(uuid "5d57447f-5add-4921-a547-6b901784cf36")
+			(uuid "fa76f206-59e0-403e-9266-b6a5f0b40445")
 		)
 		(instances
 			(project "GuitarBot_Solenoid_Driver_PCB"
 				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
-					(reference "Q2")
+					(reference "Q14")
 					(unit 1)
 				)
 			)
@@ -10063,105 +10176,6 @@
 			(project "Guitar Robot PCB"
 				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 227.33 55.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ed4a54dc-186f-41e1-bbd5-e21babc48c6b")
-		(property "Reference" "Q1"
-			(at 232.41 50.038 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 232.41 52.578 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 222.25 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 227.33 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 227.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 227.33 38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 227.33 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 227.33 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "543950c0-95a1-4bca-82b7-98a85b2f5602")
-		)
-		(pin "1"
-			(uuid "bfa385ff-96ac-4620-974f-8a3aadb69f8d")
-		)
-		(pin "3"
-			(uuid "6c6aef78-2692-43af-a45d-510ec3133b01")
-		)
-		(instances
-			(project ""
-				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -10301,16 +10315,17 @@
 		)
 	)
 	(symbol
+		(lib_name "NMOS_1")
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 190.5 55.88 180)
+		(at 148.59 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fd405d23-84da-4475-9651-2add33992144")
-		(property "Reference" "Q4"
-			(at 195.58 50.038 0)
+		(uuid "f9751810-20f2-459b-9925-d6d74b77ceaa")
+		(property "Reference" "Q10"
+			(at 143.51 158.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10319,7 +10334,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 195.58 52.578 0)
+			(at 143.51 155.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10328,7 +10343,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 185.42 58.42 0)
+			(at 153.67 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10337,7 +10352,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 190.5 43.18 0)
+			(at 148.59 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10346,7 +10361,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 190.5 55.88 0)
+			(at 148.59 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10355,7 +10370,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 190.5 38.735 0)
+			(at 148.59 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10364,7 +10379,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 190.5 36.83 0)
+			(at 148.59 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10373,7 +10388,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 190.5 40.64 0)
+			(at 148.59 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10382,24 +10397,25 @@
 			)
 		)
 		(pin "2"
-			(uuid "d5515f54-4cd9-4624-8b1e-61ad660b7146")
+			(uuid "bb07a8ab-8d79-4a0e-9b57-400b02b20606")
 		)
 		(pin "1"
-			(uuid "bab2d5d8-f6fe-476f-bfdc-df646d662109")
+			(uuid "a8cdf7f2-e4fa-4756-bab2-d8ddd254c1d0")
 		)
 		(pin "3"
-			(uuid "4d3e2cde-62c6-43cb-8596-b801ec33c340")
+			(uuid "d9314c35-a7bf-4810-b7b6-4d94c8ea092a")
 		)
 		(instances
 			(project "GuitarBot_Solenoid_Driver_PCB"
 				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
-					(reference "Q4")
+					(reference "Q10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "NMOS_1")
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 140.97 55.88 180)
 		(unit 1)
