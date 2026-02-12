@@ -1,4 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "NURC_Custom_Symbols")(type "KiCad")(uri "${KIPRJMOD}/NURC_Custom_Symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "myNew_Library")(type "KiCad")(uri "${KIPRJMOD}/myNew_Library.kicad_sym")(options "")(descr ""))
 )
