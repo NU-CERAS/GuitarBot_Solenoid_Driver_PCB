@@ -18560,31 +18560,31 @@
 		)
 	)
 	(gr_text "${REFERENCE}"
+		(at 127.15 93.03 90)
+		(layer "F.Fab")
+		(uuid "2c7e75bb-7f74-4b78-aa39-5fb0202b30c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "${REFERENCE}"
+		(at 127.15 93.03 90)
+		(layer "F.Fab")
+		(uuid "abe580c2-58b8-4608-9bd7-f7ec073ab384")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "${REFERENCE}"
 		(at 167.3 92.95 90)
 		(layer "F.Fab")
-		(uuid "51b7957d-34ed-4054-941f-523b01d23f40")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "${REFERENCE}"
-		(at 127.15 93.03 90)
-		(layer "F.Fab")
-		(uuid "abe580c2-58b8-4608-9bd7-f7ec073ab384")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "${REFERENCE}"
-		(at 127.15 93.03 90)
-		(layer "F.Fab")
-		(uuid "abe580c2-58b8-4608-9bd7-f7ec073ab384")
+		(uuid "dd675ad6-d1fc-418e-9633-6ed1d5bd8f68")
 		(effects
 			(font
 				(size 1 1)
@@ -19417,28 +19417,20 @@
 		(uuid "3a15d5ee-417d-421c-87fa-5645923c9a35")
 	)
 	(segment
-		(start 125.515 91.76)
-		(end 126.525 90.75)
-		(width 0.8)
-		(layer "F.Cu")
-		(net 11)
-		(uuid "533b6f19-d39b-4769-9ed0-93b9990ec06d")
-	)
-	(segment
-		(start 126.525 90.75)
+		(start 141.64 91.76)
 		(end 142.65 90.75)
 		(width 0.8)
 		(layer "F.Cu")
 		(net 11)
-		(uuid "805af35a-2bf2-47a0-8600-55ddb0bd91b9")
+		(uuid "9a493e84-286a-4fde-9d03-806e11ea641d")
 	)
 	(segment
 		(start 125 91.76)
-		(end 125.515 91.76)
+		(end 141.64 91.76)
 		(width 0.8)
 		(layer "F.Cu")
 		(net 11)
-		(uuid "849f672b-7896-4b5f-b232-bb5e3d071fe5")
+		(uuid "d8e63d4b-77af-4996-9edd-a1cfa69c5029")
 	)
 	(segment
 		(start 137.43 89.22)
