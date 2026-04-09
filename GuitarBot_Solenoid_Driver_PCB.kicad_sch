@@ -3677,6 +3677,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 283.21 100.33)
@@ -3781,6 +3882,12 @@
 		(uuid "22c93c8c-84b0-41ea-9edd-4940b95acebf")
 	)
 	(junction
+		(at 90.17 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24119d65-cf2b-40b0-bf3f-61db9c9ae618")
+	)
+	(junction
 		(at 283.21 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3833,6 +3940,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "301f716e-3066-4cdf-a664-cdb53d7cd09c")
+	)
+	(junction
+		(at 30.48 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "303f952f-a7e5-4c43-8c91-9e2291d02c25")
 	)
 	(junction
 		(at 238.76 72.39)
@@ -4115,6 +4228,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a60a2139-fe6a-4b51-9d6e-c9edafa4ae19")
+	)
+	(junction
+		(at 132.08 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a71d74bd-124c-4ccf-9303-c779edcc3142")
 	)
 	(junction
 		(at 252.73 113.03)
@@ -4762,6 +4881,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 58.42) (xy 90.17 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29fd10e3-7bb4-4f4a-adfa-f148c6a2cc80")
+	)
+	(wire
+		(pts
 			(xy 252.73 87.63) (xy 265.43 87.63)
 		)
 		(stroke
@@ -5269,6 +5398,16 @@
 			(type default)
 		)
 		(uuid "59975b03-e6e0-43fd-9693-5770d318b35c")
+	)
+	(wire
+		(pts
+			(xy 22.86 57.15) (xy 30.48 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b520ef5-c608-4c96-a6e0-94206670ed8a")
 	)
 	(wire
 		(pts
@@ -5899,6 +6038,16 @@
 			(type default)
 		)
 		(uuid "9b6aab89-aba9-4f93-b897-d36cc9b9cb46")
+	)
+	(wire
+		(pts
+			(xy 128.27 50.8) (xy 132.08 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c92fb2e-510c-467e-b6d7-1e6dd2b9fbc8")
 	)
 	(wire
 		(pts
@@ -6820,7 +6969,7 @@
 		)
 		(uuid "53d468cb-c4b7-4e30-8259-5efa25faaa8d")
 	)
-	(label "SDK"
+	(label "SCK"
 		(at 76.2 71.12 0)
 		(effects
 			(font
@@ -6870,7 +7019,7 @@
 		)
 		(uuid "70f07b1d-2a9a-4751-bae9-65b662c98fb8")
 	)
-	(label "SDK"
+	(label "SCK"
 		(at 67.31 82.55 0)
 		(effects
 			(font
@@ -7010,7 +7159,7 @@
 		)
 		(uuid "e548d2c2-2327-40fd-ba45-b35468a941e4")
 	)
-	(label "SDK"
+	(label "SCK"
 		(at 66.04 40.64 0)
 		(effects
 			(font
@@ -9746,7 +9895,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 85.598 58.42 0)
+			(at 90.17 54.356 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9925,6 +10074,72 @@
 			(project "GuitarBot_Solenoid_Driver_PCB"
 				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
 					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 128.27 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b804bb7-2833-434b-92d9-c51d6fbc7475")
+		(property "Reference" "#FLG01"
+			(at 128.27 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 128.27 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 128.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b580106-ffc6-46d3-99c2-b5878ef4ffbd")
+		)
+		(instances
+			(project ""
+				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -10303,6 +10518,72 @@
 			(project "GuitarBot_Solenoid_Driver_PCB"
 				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
 					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 22.86 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ee43c2f-46b4-40bd-b2cc-f3d1c04bf50e")
+		(property "Reference" "#FLG03"
+			(at 22.86 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 22.86 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 22.86 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7943e266-835c-40c0-a0ce-ce8ca2a7de86")
+		)
+		(instances
+			(project ""
+				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -12800,6 +13081,72 @@
 			(project "Guitar Robot PCB"
 				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 81.28 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acc93019-4134-4f5e-86f8-819a53e3c235")
+		(property "Reference" "#FLG02"
+			(at 81.28 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 81.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 81.28 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a5b9896-3e09-4ff8-8a65-5ac17366ad20")
+		)
+		(instances
+			(project ""
+				(path "/34c6dfb8-ccfc-4202-9fb2-435617e70f4b"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
